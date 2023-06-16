@@ -39,9 +39,6 @@
     padding: 0;
   }
 }
-.header-container {
-  display: flex;
-}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -57,15 +54,8 @@
     display: none;
   }
 
-  .header-address {
-  }
-
   .tablet-header-address-link {
-    display: inline-flex;
-    flex-direction: column;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.2em;
+    display: flex;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -75,5 +65,15 @@
   }
   .mobile-menu-open-icon {
     display: none;
+  }
+
+  .contacts {
+    flex-direction: row;
+  }
+
+  .header-address-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
   }
 }

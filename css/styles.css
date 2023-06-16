@@ -117,10 +117,10 @@ img {
 }
 
 /**-----HEADER-----**/
-/* .header-container {
+.header-container {
   display: flex;
   align-items: center;
-} */
+}
 .header-list {
   display: flex;
   gap: 40px;
@@ -166,7 +166,6 @@ img {
 }
 
 .header-address {
-  /* display: flex; */
   font-style: normal;
   gap: 40px;
   margin-left: auto;
@@ -176,8 +175,8 @@ img {
   letter-spacing: 0.02em;
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  line-height: 1.5;
-  font-size: 16px;
+  line-height: 1.2;
+  font-size: 12px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -232,8 +231,9 @@ img {
   color: var(--slate);
 }
 .contacts {
-  gap: 40px;
+  gap: 12px;
   justify-content: end;
+  flex-direction: column;
 }
 .first-item-contacts {
   font-size: 16px;
