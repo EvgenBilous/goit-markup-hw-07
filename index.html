@@ -16,6 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
   </head>
   <body>
     <header class="page-header">
@@ -41,24 +42,31 @@
           <ul class="list contacts">
             <li class="header-item">
               <a
-                class="header-address-link link"
+                class="header-address-link tablet-header-address-link link"
                 href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="header-item">
-              <a class="header-address-link link" href="tel:+110001111111"
+              <a
+                class="header-address-link link tablet-header-address-link"
+                href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button type="button" class="mobile-menu-open-icon">
+          <svg width="22" height="32">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!--First Section-->
 
-      <section class="hero hero-background">
+      <!-- <section class="hero hero-background">
         <div class="container">
           <h1 class="hero-header">effective solutions for your business</h1>
 
@@ -66,11 +74,11 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!--Second Section-->
 
-      <section class="services section">
+      <!-- <section class="services section">
         <div class="container containerFeatures">
           <h2 class="services-title visually-hidden">Services</h2>
           <ul class="card-set-services list">
@@ -128,9 +136,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--3rd - section: What are we doing-->
-      <section class="products section">
+      <!-- <section class="products section">
         <div class="container containerServices">
           <h2 class="products-titles">what we are doing</h2>
           <ul class="card-set-services list">
@@ -145,9 +153,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--4th section-->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container containerTeam">
           <h2 class="team-titles">Our Team</h2>
           <ul class="team-list list">
@@ -377,9 +385,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--5th section-->
-      <section class="customers-section">
+      <!-- <section class="customers-section">
         <div class="container">
           <h2 class="header-customers">Customers</h2>
           <ul class="customers-list list">
@@ -457,10 +465,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!--Footer-->
-    <footer class="footy">
+    <!-- <footer class="footy">
       <div class="container footer-container">
         <div class="footer-logo-p">
           <a href="/" class="footer_logo link"
@@ -524,7 +532,7 @@
             </li>
           </ul>
         </div>
-        <!-- Subscribe Form -->
+ 
         <div class="subscribe">
           <p class="subscribe-header">Subscribe</p>
           <form class="subscribe-form">
@@ -546,7 +554,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button data-modal-close type="button" class="close-modal-button">
@@ -638,5 +646,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
