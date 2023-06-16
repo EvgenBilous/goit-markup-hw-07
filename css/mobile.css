@@ -47,11 +47,13 @@
     margin-left: auto;
     outline: var(--outline-on-off);
   }
+
   .menu {
     display: flex;
   }
   .mobile-menu-open-icon {
     display: none;
+    stroke: var(--navy-blue);
   }
 
   .tablet-header-address-link {
@@ -63,12 +65,16 @@
     width: 1128px;
     outline: var(--outline-on-off);
   }
+  .header-container {
+    height: 72px;
+  }
   .mobile-menu-open-icon {
     display: none;
   }
 
   .contacts {
     flex-direction: row;
+    gap: 40px;
   }
 
   .header-address-link {
