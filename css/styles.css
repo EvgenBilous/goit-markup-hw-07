@@ -252,8 +252,8 @@ img {
 }
 .hero-header {
   max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -268,7 +268,7 @@ img {
   height: 56px;
   border: none;
   margin: 0 auto;
-  margin-top: 47px;
+  margin-top: 72px;
 
   /* IRIS */
   background: var(--iris);

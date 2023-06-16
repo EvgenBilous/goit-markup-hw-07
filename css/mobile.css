@@ -82,4 +82,14 @@
     font-weight: 500;
     line-height: 1.5;
   }
+
+  .hero-header {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-button {
+    margin-top: 47px;
+  }
 }
