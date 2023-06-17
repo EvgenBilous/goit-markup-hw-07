@@ -36,6 +36,8 @@ ol {
 
 img {
   display: block;
+  height: auto;
+  width: 100%;
 }
 
 .studio-soc-list {
@@ -293,6 +295,8 @@ img {
 }
 
 .hero-background {
+  width: 100%;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
