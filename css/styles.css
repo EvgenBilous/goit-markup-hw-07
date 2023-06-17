@@ -309,7 +309,7 @@ img {
 }
 
 .services {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .btn {
@@ -344,7 +344,7 @@ img {
 
 /**----------ABOUT-------**/
 .services-icon {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -565,11 +565,11 @@ img {
 
 .card-set-services {
   /* Make a flex container multiline */
-  /* flex-wrap: wrap; */
+  flex-direction: column;
   /* Set gap between rows and columns */
-
   list-style: none;
   gap: 24px;
+  justify-content: center;
 }
 
 .products-items {

@@ -91,4 +91,11 @@
   .hero-button {
     margin-top: 47px;
   }
+
+  .services-icon {
+    display: flex;
+  }
+  .services {
+    padding: 120px 0;
+  }
 }
