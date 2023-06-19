@@ -683,13 +683,13 @@ img {
   padding-bottom: 120px;
 }
 .customers-list {
-  display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
   justify-content: center;
 }
 .customers-items {
   height: 88px;
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 24px) / 2);
 }
 .customers-link {
   display: flex;

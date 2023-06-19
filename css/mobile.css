@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    width: 552px;
     margin-right: auto;
     margin-left: auto;
     outline: var(--outline-on-off);
@@ -81,6 +81,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 64px 24px;
+  }
+  .customers-items {
+    width: calc((100% - 48px) / 3);
   }
 }
 
@@ -151,5 +154,12 @@
   .team-list {
     display: flex;
     gap: 72px 24px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+  .customers-items {
+    width: calc((100% - 120px) / 6);
   }
 }
