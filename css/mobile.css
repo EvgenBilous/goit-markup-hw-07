@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .container {
-    width: 552px;
+    width: 736px;
     outline: var(--outline-on-off);
   }
   .menu {
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 552px;
+    width: 736px;
     margin-right: auto;
     margin-left: auto;
     outline: var(--outline-on-off);
