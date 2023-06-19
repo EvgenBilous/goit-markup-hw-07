@@ -82,9 +82,9 @@
     flex-wrap: wrap;
     gap: 64px 24px;
   }
-  /* .customers-list {
+  .customers-list {
     column-gap: 24px;
-  } */
+  }
 
   .customers-items {
     width: calc((100% - 48px) / 3);
