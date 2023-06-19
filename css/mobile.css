@@ -85,6 +85,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .containerTeam {
+    max-width: 1128px;
+  }
   .container {
     width: 1128px;
     outline: var(--outline-on-off);
@@ -146,6 +149,7 @@
     width: calc((100% - 72px) / 4);
   }
   .team-list {
-    gap: 72px;
+    display: flex;
+    gap: 72px 24px;
   }
 }
