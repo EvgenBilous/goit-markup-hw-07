@@ -64,11 +64,24 @@
   }
 }
 
-/* @media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
+  .containerTeam {
+    width: 552px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: var(--outline-on-off);
+  }
+
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-} */
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .container {
@@ -132,6 +145,6 @@
     width: calc((100% - 72px) / 4);
   }
   .team-list {
-    gap: 24px;
+    gap: 72px;
   }
 }
