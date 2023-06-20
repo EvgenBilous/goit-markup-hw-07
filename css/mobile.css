@@ -166,4 +166,10 @@
   .customers-items {
     width: calc((100% - 120px) / 6);
   }
+  .footer-logo-p {
+    margin-right: 120px;
+  }
+  .subscribe {
+    margin-left: 80px;
+  }
 }
