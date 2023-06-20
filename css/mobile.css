@@ -68,7 +68,7 @@
 
 @media screen and (min-width: 768px) {
   .containerTeam {
-    max-width: 552px;
+    max-width: 582px;
     padding-left: 15px;
     padding-right: 15px;
     outline: var(--outline-on-off);
@@ -89,6 +89,9 @@
 
   .customers-items {
     width: calc((100% - 48px) / 3);
+  }
+  .footer-container {
+    width: 552px;
   }
 }
 
