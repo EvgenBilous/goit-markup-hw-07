@@ -33,6 +33,9 @@
     border: none;
     padding: 0;
   }
+  .products {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 469px) and (max-width: 767px) {
@@ -101,6 +104,9 @@
 
   .customers-items {
     width: calc((100% - 48px) / 3);
+  }
+  .products {
+    display: none;
   }
 }
 
@@ -212,5 +218,14 @@
   .subscribe-form {
     display: flex;
     gap: 24px;
+  }
+  .products {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products {
+    display: block;
   }
 }
