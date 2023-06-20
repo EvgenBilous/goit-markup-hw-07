@@ -79,6 +79,12 @@
     padding-right: 15px;
     outline: var(--outline-on-off);
   }
+  .containerCustomers {
+    max-width: 582px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: var(--outline-on-off);
+  }
 
   .team-item {
     width: calc((100% - 24px) / 2);
@@ -98,12 +104,14 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1128px) {
   .containerTeam {
     max-width: 1128px;
   }
   .container {
     max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
     outline: var(--outline-on-off);
   }
 
@@ -184,11 +192,25 @@
   .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: baseline;
   }
   .footer-soc-p {
-    margin-top: 100;
+    margin-top: 0;
   }
-  .subsribe-header {
-    margin-top: 100;
+  .subscribe-header {
+    margin-top: 0;
+  }
+  .subscribe-field {
+    display: flex;
+    width: 264px;
+  }
+
+  .subscribe-button {
+    display: flex;
+    margin-top: 0;
+  }
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
   }
 }
