@@ -20,8 +20,9 @@
   outline: var(--outline-on-off);
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 469px) and (max-width: 767px) {
   .container {
+    width: 767px;
     outline: var(--outline-on-off);
   }
   .menu {
