@@ -96,9 +96,6 @@
   .customers-items {
     width: calc((100% - 48px) / 3);
   }
-  .footer-container {
-    width: 552px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -109,6 +106,7 @@
     max-width: 1128px;
     outline: var(--outline-on-off);
   }
+
   .header-container {
     height: 72px;
   }
@@ -181,5 +179,16 @@
   }
   .subscribe {
     margin-left: 80px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .footer-soc-p {
+    margin-top: 100;
+  }
+  .subsribe-header {
+    margin-top: 100;
   }
 }
