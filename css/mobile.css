@@ -11,7 +11,7 @@
   --green: #31d0aa;
   --animation-duration: 250 ms linear;
   --dairy: #fcfcfc;
-  --outline-on-off: 2px solid red;
+  --outline-on-off: none;
 }
 
 .container {
