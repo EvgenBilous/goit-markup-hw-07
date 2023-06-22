@@ -19,11 +19,19 @@
   padding-right: 16px;
   outline: var(--outline-on-off);
 }
-
+@media screen and (max-width: 428px) {
+  /* .modal {
+    max-width: 398px;
+  } */
+}
 @media screen and (min-width: 768px) and (max-width: 1128px) {
   .containerFooterTab {
     width: 552px;
   }
+  .services-headers {
+    margin: 0;
+  }
+
   .subscribe-form {
     display: flex;
     flex-wrap: wrap;
@@ -199,6 +207,9 @@
   }
   .products {
     display: none;
+  }
+  .modal {
+    width: 408px;
   }
 }
 

@@ -719,8 +719,7 @@ img {
 
 .modal {
   position: absolute;
-  min-width: 392px;
-  max-width: 408px;
+  max-width: 398px;
   min-height: 584px;
   background-color: var(--dairy);
   top: 50%;
