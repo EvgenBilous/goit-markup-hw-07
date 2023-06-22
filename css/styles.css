@@ -328,6 +328,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate);
   line-height: 1.5;
+  font-weight: 500;
 }
 .products {
   padding-bottom: 120px;

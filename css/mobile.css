@@ -20,6 +20,37 @@
   outline: var(--outline-on-off);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1128px) {
+  .containerFooterTab {
+    width: 552px;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .footer-container {
+    flex-direction: row;
+  }
+  .subscribe-button {
+    margin-top: 0;
+    margin: 0;
+  }
+  .subscribe-field {
+    width: 264px;
+  }
+  .footer-soc-p {
+    text-align: left;
+    margin-top: -30px;
+  }
+  .subscribe-header {
+    text-align: left;
+  }
+  .soc-links {
+    margin-left: 24px;
+  }
+}
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .menu {
     display: none;
@@ -136,9 +167,7 @@
   .mobile-menu {
     display: none;
   }
-}
 
-@media screen and (min-width: 768px) {
   .containerTeam {
     max-width: 582px;
     padding-left: 15px;
