@@ -27,6 +27,7 @@
   .header-address-link {
     display: none;
   }
+
   .mobile-menu-open-icon {
     stroke: var(--navy-blue);
     background-color: transparent;
@@ -118,11 +119,6 @@
     color: var(--ocean);
   }
 
-  .header-address {
-    font-style: normal;
-    gap: 40px;
-    margin-left: auto;
-  }
   .header-address-link {
     color: var(--slate);
     letter-spacing: 0.02em;
@@ -136,6 +132,9 @@
   .header-address-link:hover,
   .header-address-link:focus {
     color: var(--ocean);
+  }
+  .mobile-menu {
+    display: none;
   }
 }
 
@@ -291,5 +290,9 @@
 @media screen and (min-width: 1200px) {
   .products {
     display: block;
+  }
+
+  .modal {
+    width: 408px;
   }
 }
