@@ -48,10 +48,8 @@ img {
 
 .mob-studio-soc-list {
   display: flex;
-  justify-content: center;
   gap: 56px;
   margin-top: 48px;
-  margin-bottom: 40px;
 }
 
 .soc-items {
@@ -165,6 +163,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-second-word {
   color: var(--navy-blue);
@@ -189,7 +188,7 @@ img {
   color: var(--slate);
 }
 .contacts {
-  gap: 12px;
+  gap: 40px;
   justify-content: end;
   flex-direction: column;
 }
@@ -204,7 +203,7 @@ img {
 
 .hero {
   background-color: var(--navy-blue);
-  padding: 188px 0;
+  padding: 112px 0;
   max-width: 1440px;
 }
 .hero-header {
@@ -318,8 +317,6 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-bottom: 8px;
-  margin: 0 auto;
 }
 
 .services-text {
@@ -591,6 +588,7 @@ img {
 .footer-logo-soc-link-header {
   color: var(--cloud);
   text-align: center;
+  font-weight: 500;
 }
 .footer_logo {
   color: var(--iris);
@@ -612,6 +610,7 @@ img {
   color: var(--cloud);
   max-width: 264px;
   margin: 0 auto;
+  font-weight: 500;
 }
 .footer-soc-p {
   font-weight: 500;
@@ -1049,6 +1048,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 80px 40px 40px 40px;
 }
 
 .mobile-menu-list {
@@ -1061,7 +1061,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--slate);
-  margin-left: 40px;
   gap: 40px;
 }
 
@@ -1072,7 +1071,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--ocean);
-  margin-left: 40px;
   gap: 40px;
 }
 
@@ -1087,7 +1085,6 @@ img {
 }
 
 .mobile-menu-item {
-  margin-top: 30px;
 }
 /* спроба зробити через first-child */
 /* .mobile-menu-list > .mobile-link-page:first-child {
@@ -1095,13 +1092,11 @@ img {
 } */
 .mobile-menu-address-link {
   font-style: normal;
-  margin-left: 40px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--slate);
-  margin-bottom: 48px;
 }
 
 .mobile-menu-close {
@@ -1122,8 +1117,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-left: 40px;
-  margin-top: 80px;
 }
 
 .mobile-menu.is-hidden {

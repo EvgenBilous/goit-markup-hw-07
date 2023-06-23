@@ -35,8 +35,9 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .services-headers {
-    margin-top: 8px;
+  .team {
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -46,8 +47,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
+  .contacts {
+    gap: 12px;
+  }
+
   .hero {
-    padding: 112px;
+    padding: 112px 0;
   }
   .containerFooterTab {
     width: 584px;
@@ -111,7 +116,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
     margin-right: auto;
     margin-left: auto;
     outline: var(--outline-on-off);
@@ -128,9 +133,7 @@
   .tablet-header-address-link {
   }
   .services-item {
-    display: flex;
     width: calc((100% - 24px) / 2);
-    flex-wrap: wrap;
   }
   .products {
     display: none;
@@ -184,7 +187,7 @@
     color: var(--slate);
     letter-spacing: 0.02em;
     font-family: Roboto, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.2;
     font-size: 12px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -334,6 +337,7 @@
   .subscribe-header {
     margin-top: 0;
     text-align: left;
+    font-weight: 500;
   }
   .subscribe-field {
     display: flex;
@@ -367,5 +371,11 @@
   }
   .footer-logo-soc-link-header {
     text-align: left;
+  }
+  .soc-links {
+    margin-left: 120px;
+  }
+  .footer_text {
+    width: 264px;
   }
 }
