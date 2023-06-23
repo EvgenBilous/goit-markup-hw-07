@@ -54,6 +54,14 @@
   .hero {
     padding: 112px 0;
   }
+  .hero-background {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-tab.jpg);
+  }
+
   .containerFooterTab {
     width: 584px;
   }
@@ -246,6 +254,14 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .hero-background {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+
   .containerTeam {
     max-width: 1158px;
   }
